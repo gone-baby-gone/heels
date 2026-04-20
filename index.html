@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title></title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div id="page-top" class="site-start" aria-hidden="true"></div>
+		<a class="skip-link" href="#main" data-i18n="skip_main"></a>
+
+		<header class="header">
+			<div class="header__inner container">
+				<a class="logo" href="#hero" data-i18n="logo_text"></a>
+				<nav class="nav" aria-label="" data-i18n-attr="aria-label|nav_aria">
+					<ul class="nav__list">
+						<li>
+							<a
+								class="nav__link"
+								href="#philosophy"
+								data-i18n="nav_philosophy"
+							></a>
+						</li>
+						<li>
+							<a class="nav__link" href="#courses" data-i18n="nav_courses"></a>
+						</li>
+						<li>
+							<a
+								class="nav__link"
+								href="#benefits"
+								data-i18n="nav_benefits"
+							></a>
+						</li>
+						<li>
+							<a class="nav__link" href="#gallery" data-i18n="nav_gallery"></a>
+						</li>
+						<li>
+							<a
+								class="nav__link"
+								href="#testimonials"
+								data-i18n="nav_testimonials"
+							></a>
+						</li>
+						<li>
+							<a
+								class="nav__link nav__link--cta"
+								href="#contact"
+								data-i18n="nav_contact"
+							></a>
+						</li>
+					</ul>
+				</nav>
+				<div
+					class="lang"
+					role="group"
+					aria-label=""
+					data-i18n-attr="aria-label|lang_group_aria"
+				>
+					<button
+						type="button"
+						class="lang__btn"
+						data-lang="ua"
+						aria-pressed="true"
+					>
+						UA
+					</button>
+					<button
+						type="button"
+						class="lang__btn"
+						data-lang="de"
+						aria-pressed="false"
+					>
+						DE
+					</button>
+				</div>
+				<button
+					type="button"
+					class="menu-toggle"
+					aria-expanded="false"
+					aria-controls="mobile-nav"
+					aria-label=""
+				>
+					<span class="menu-toggle__bar" aria-hidden="true"></span>
+					<span class="menu-toggle__bar" aria-hidden="true"></span>
+				</button>
+			</div>
+			<div class="mobile-nav" id="mobile-nav" hidden>
+				<nav
+					class="mobile-nav__inner"
+					aria-label=""
+					data-i18n-attr="aria-label|nav_aria"
+				>
+					<a href="#philosophy" data-i18n="nav_philosophy"></a>
+					<a href="#courses" data-i18n="nav_courses"></a>
+					<a href="#benefits" data-i18n="nav_benefits"></a>
+					<a href="#gallery" data-i18n="nav_gallery"></a>
+					<a href="#testimonials" data-i18n="nav_testimonials"></a>
+					<a href="#contact" data-i18n="nav_contact"></a>
+				</nav>
+			</div>
+		</header>
+
+		<main id="main">
+			<section class="hero" id="hero" aria-labelledby="hero-title">
+				<div class="hero__bg" aria-hidden="true">
+					<div class="hero__gradient"></div>
+					<div class="hero__grain" aria-hidden="true"></div>
+				</div>
+				<div class="hero__layout container">
+					<div class="hero__content">
+						<p class="eyebrow reveal" data-reveal data-i18n="hero_eyebrow"></p>
+						<h1
+							class="hero__title reveal"
+							data-reveal
+							id="hero-title"
+							data-i18n="hero_title"
+						></h1>
+						<p
+							class="hero__subtitle reveal"
+							data-reveal
+							data-i18n="hero_subtitle"
+						></p>
+						<div class="hero__actions reveal" data-reveal>
+							<a
+								class="btn btn--primary"
+								href="#contact"
+								data-i18n="hero_cta"
+							></a>
+							<a
+								class="btn btn--ghost"
+								href="#courses"
+								data-i18n="hero_cta_secondary"
+							></a>
+						</div>
+					</div>
+					<figure class="hero__portrait reveal" data-reveal>
+						<!-- <div
+              class="hero__portrait-frame"
+              role="img"
+              data-i18n-attr="aria-label|hero_portrait_alt"
+            ></div> -->
+						<img
+							class="hero__portrait-img"
+							src="img/karolina.jpg"
+							alt="portrait"
+							width="500"
+							height="650"
+						/>
+					</figure>
+				</div>
+				<div class="hero__scroll" aria-hidden="true"></div>
+			</section>
+
+			<section
+				class="section philosophy"
+				id="philosophy"
+				aria-labelledby="philosophy-title"
+			>
+				<div class="container narrow">
+					<p
+						class="section__kicker reveal"
+						data-reveal
+						data-i18n="philosophy_kicker"
+					></p>
+					<h2
+						class="section__title reveal"
+						data-reveal
+						id="philosophy-title"
+						data-i18n="philosophy_title"
+					></h2>
+					<p
+						class="section__lead reveal"
+						data-reveal
+						data-i18n="philosophy_lead"
+					></p>
+					<p
+						class="section__body reveal"
+						data-reveal
+						data-i18n="philosophy_body"
+					></p>
+				</div>
+			</section>
+
+			<section
+				class="section courses"
+				id="courses"
+				aria-labelledby="courses-title"
+			>
+				<div class="container">
+					<header class="section__head reveal" data-reveal>
+						<p class="section__kicker" data-i18n="courses_kicker"></p>
+						<div class="section__headrow">
+							<h2
+								class="section__title"
+								id="courses-title"
+								data-i18n="courses_title"
+							></h2>
+							<p class="section__intro" data-i18n="courses_intro"></p>
+						</div>
+					</header>
+					<div class="grid-courses">
+						<article class="card card--course reveal" data-reveal>
+							<span class="card__index" aria-hidden="true">01</span>
+							<h3 class="card__title" data-i18n="course_kids_title"></h3>
+							<p class="card__text" data-i18n="course_kids_desc"></p>
+						</article>
+						<article class="card card--course reveal" data-reveal>
+							<span class="card__index" aria-hidden="true">02</span>
+							<h3 class="card__title" data-i18n="course_beginners_title"></h3>
+							<p class="card__text" data-i18n="course_beginners_desc"></p>
+						</article>
+						<article class="card card--course reveal" data-reveal>
+							<span class="card__index" aria-hidden="true">03</span>
+							<h3
+								class="card__title"
+								data-i18n="course_intermediate_title"
+							></h3>
+							<p class="card__text" data-i18n="course_intermediate_desc"></p>
+						</article>
+						<article class="card card--course reveal" data-reveal>
+							<span class="card__index" aria-hidden="true">04</span>
+							<h3 class="card__title" data-i18n="course_private_title"></h3>
+							<p class="card__text" data-i18n="course_private_desc"></p>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<section
+				class="section benefits"
+				id="benefits"
+				aria-labelledby="benefits-title"
+			>
+				<div class="container">
+					<header
+						class="section__head section__head--center reveal"
+						data-reveal
+					>
+						<p class="section__kicker" data-i18n="benefits_kicker"></p>
+						<h2
+							class="section__title"
+							id="benefits-title"
+							data-i18n="benefits_title"
+						></h2>
+					</header>
+					<ul class="grid-benefits">
+						<li class="benefit reveal" data-reveal>
+							<span class="benefit__icon" aria-hidden="true"></span>
+							<h3 class="benefit__title" data-i18n="benefit_balance_title"></h3>
+							<p class="benefit__text" data-i18n="benefit_balance_text"></p>
+						</li>
+						<li class="benefit reveal" data-reveal>
+							<span
+								class="benefit__icon benefit__icon--b"
+								aria-hidden="true"
+							></span>
+							<h3
+								class="benefit__title"
+								data-i18n="benefit_confidence_title"
+							></h3>
+							<p class="benefit__text" data-i18n="benefit_confidence_text"></p>
+						</li>
+						<li class="benefit reveal" data-reveal>
+							<span
+								class="benefit__icon benefit__icon--c"
+								aria-hidden="true"
+							></span>
+							<h3
+								class="benefit__title"
+								data-i18n="benefit_creativity_title"
+							></h3>
+							<p class="benefit__text" data-i18n="benefit_creativity_text"></p>
+						</li>
+						<li class="benefit reveal" data-reveal>
+							<span
+								class="benefit__icon benefit__icon--d"
+								aria-hidden="true"
+							></span>
+							<h3 class="benefit__title" data-i18n="benefit_control_title"></h3>
+							<p class="benefit__text" data-i18n="benefit_control_text"></p>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section
+				class="section gallery"
+				id="gallery"
+				aria-labelledby="gallery-title"
+			>
+				<div class="container">
+					<header class="section__head reveal" data-reveal>
+						<p class="section__kicker" data-i18n="gallery_kicker"></p>
+						<h2
+							class="section__title"
+							id="gallery-title"
+							data-i18n="gallery_title"
+						></h2>
+						<p
+							class="section__intro section__intro--short"
+							data-i18n="gallery_intro"
+						></p>
+					</header>
+					<div class="gallery__grid">
+						<figure class="gallery__cell reveal" data-reveal>
+							<div
+								class="gallery__ph"
+								role="img"
+								data-i18n-attr="aria-label|gallery_alt_1"
+							></div>
+						</figure>
+						<figure
+							class="gallery__cell gallery__cell--tall reveal"
+							data-reveal
+						>
+							<div
+								class="gallery__ph gallery__ph--b"
+								role="img"
+								data-i18n-attr="aria-label|gallery_alt_2"
+							></div>
+						</figure>
+						<figure class="gallery__cell reveal" data-reveal>
+							<div
+								class="gallery__ph gallery__ph--c"
+								role="img"
+								data-i18n-attr="aria-label|gallery_alt_3"
+							></div>
+						</figure>
+						<figure class="gallery__cell reveal" data-reveal>
+							<div
+								class="gallery__ph gallery__ph--d"
+								role="img"
+								data-i18n-attr="aria-label|gallery_alt_4"
+							></div>
+						</figure>
+						<figure
+							class="gallery__cell gallery__cell--wide reveal"
+							data-reveal
+						>
+							<div
+								class="gallery__ph gallery__ph--e"
+								role="img"
+								data-i18n-attr="aria-label|gallery_alt_5"
+							></div>
+						</figure>
+					</div>
+				</div>
+			</section>
+
+			<section
+				class="section testimonials"
+				id="testimonials"
+				aria-labelledby="testimonials-title"
+			>
+				<div class="container">
+					<header class="section__head section__head--row reveal" data-reveal>
+						<div>
+							<p class="section__kicker" data-i18n="testimonials_kicker"></p>
+							<h2
+								class="section__title"
+								id="testimonials-title"
+								data-i18n="testimonials_title"
+							></h2>
+						</div>
+						<div class="testimonial__controls">
+							<button
+								type="button"
+								class="icon-btn"
+								data-testimonial-prev
+								aria-label=""
+								data-i18n-attr="aria-label|testimonial_prev_aria"
+							></button>
+							<button
+								type="button"
+								class="icon-btn icon-btn--next"
+								data-testimonial-next
+								aria-label=""
+								data-i18n-attr="aria-label|testimonial_next_aria"
+							></button>
+						</div>
+					</header>
+					<div class="testimonial__viewport reveal" data-reveal>
+						<div class="testimonial__track" data-testimonial-track></div>
+						<div
+							class="testimonial__dots"
+							data-testimonial-dots
+							role="tablist"
+							aria-label=""
+							data-i18n-attr="aria-label|testimonials_dots_aria"
+						></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section join" id="join" aria-labelledby="join-title">
+				<div class="container join__panel reveal" data-reveal>
+					<div class="join__copy">
+						<h2 class="join__title" id="join-title" data-i18n="join_title"></h2>
+						<p class="join__text" data-i18n="join_text"></p>
+					</div>
+					<a class="btn btn--light" href="#contact" data-i18n="join_cta"></a>
+				</div>
+			</section>
+
+			<section
+				class="section contact"
+				id="contact"
+				aria-labelledby="contact-title"
+			>
+				<div class="container contact__grid">
+					<div class="contact__intro reveal" data-reveal>
+						<p class="section__kicker" data-i18n="contact_kicker"></p>
+						<h2
+							class="section__title"
+							id="contact-title"
+							data-i18n="contact_title"
+						></h2>
+						<p class="section__body" data-i18n="contact_intro"></p>
+						<address class="contact__address">
+							<p data-i18n="contact_address"></p>
+							<p>
+								<a
+									class="contact__link"
+									href="mailto:hello@studio.example"
+									data-contact-email
+								></a>
+							</p>
+							<p>
+								<a
+									class="contact__link"
+									href="tel:+380000000000"
+									data-contact-phone
+								></a>
+							</p>
+						</address>
+					</div>
+					<div class="contact__actions reveal" data-reveal>
+						<a
+							class="btn btn--primary btn--block"
+							href="https://wa.me/380000000000"
+							target="_blank"
+							rel="noopener noreferrer"
+							data-i18n="btn_whatsapp"
+						></a>
+						<a
+							class="btn btn--outline btn--block"
+							href="https://t.me/yourstudio"
+							target="_blank"
+							rel="noopener noreferrer"
+							data-i18n="btn_telegram"
+						></a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container footer__inner">
+				<p class="footer__copy" data-i18n="footer_copy"></p>
+				<a
+					class="footer__top"
+					href="#page-top"
+					data-scroll-top
+					data-i18n="footer_back_top"
+				></a>
+			</div>
+		</footer>
+
+		<script src="script.js" defer></script>
+	</body>
+</html>
