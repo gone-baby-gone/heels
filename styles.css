@@ -347,6 +347,7 @@ button {
 	padding: 0.65rem 0;
 	color: var(--ink);
 	border-bottom: 1px solid var(--line);
+	text-align: center;
 }
 
 /* Hero */
