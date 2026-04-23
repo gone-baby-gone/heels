@@ -1090,7 +1090,6 @@ button {
 	top: 7rem;
 }
 
-
 /* Contact map background */
 .contact {
 	position: relative;
@@ -1101,7 +1100,7 @@ button {
 	position: absolute;
 	inset: 0;
 	z-index: 0;
-	filter: grayscale(1) saturate(0) brightness(1.05) opacity(0.22);
+	filter: grayscale(1) saturate(0) brightness(1.05) opacity(0.8);
 }
 
 .contact .container {
