@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title></title>
+		<title>Кароліна · Соматична менторка</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -11,6 +11,11 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="styles.css" />
+	<meta name="description" content="Кароліна — соматична менторка. Робота з тілом через рух, танець і дихання. Індивідуальні сесії та групові формати." />
+	<meta property="og:title" content="Кароліна · Соматична менторка" />
+	<meta property="og:description" content="Соматична робота з тілом через рух, танець і дихання. Індивідуальні сесії та групові формати." />
+	<meta property="og:type" content="website" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 	</head>
 	<body>
 		<div id="page-top" class="site-start" aria-hidden="true"></div>
@@ -149,7 +154,7 @@
 						<img
 							class="hero__portrait-img"
 							src="img/karolina.jpg"
-							alt="portrait"
+							alt="Кароліна — соматична менторка"
 							width="500"
 							height="650"
 						/>
@@ -414,6 +419,7 @@
 				id="contact"
 				aria-labelledby="contact-title"
 			>
+				<div id="contact-map" class="contact__map" aria-hidden="true"></div>
 				<div class="container contact__grid">
 					<div class="contact__intro reveal" data-reveal>
 						<p class="section__kicker" data-i18n="contact_kicker"></p>
@@ -473,6 +479,47 @@
 			</div>
 		</footer>
 
+		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN2GqBM=" crossorigin=""></script>
 		<script src="script.js" defer></script>
+		<script>
+			(function () {
+				function initMap() {
+					var el = document.getElementById("contact-map");
+					if (!el || typeof L === "undefined") return;
+					// Replace lat/lng with real coordinates
+					var lat = 47.3769, lng = 8.5417; // Zürich placeholder
+					var map = L.map("contact-map", {
+						center: [lat, lng],
+						zoom: 14,
+						zoomControl: false,
+						scrollWheelZoom: false,
+						dragging: false,
+						touchZoom: false,
+						doubleClickZoom: false,
+						attributionControl: false,
+						keyboard: false,
+						boxZoom: false,
+					});
+					L.tileLayer(
+						"https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+						{ subdomains: "abcd", maxZoom: 19 }
+					).addTo(map);
+					L.circleMarker([lat, lng], {
+						radius: 10,
+						color: "#8b7355",
+						fillColor: "#8b7355",
+						fillOpacity: 1,
+						weight: 3,
+					}).addTo(map);
+					// Force tile redraw after layout is complete
+					setTimeout(function () { map.invalidateSize(); }, 200);
+				}
+				if (document.readyState === "loading") {
+					document.addEventListener("DOMContentLoaded", initMap);
+				} else {
+					initMap();
+				}
+			})();
+		</script>
 	</body>
 </html>
