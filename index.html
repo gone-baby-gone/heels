@@ -11,11 +11,22 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="styles.css" />
-	<meta name="description" content="Кароліна — соматична менторка. Робота з тілом через рух, танець і дихання. Індивідуальні сесії та групові формати." />
-	<meta property="og:title" content="Кароліна · Соматична менторка" />
-	<meta property="og:description" content="Соматична робота з тілом через рух, танець і дихання. Індивідуальні сесії та групові формати." />
-	<meta property="og:type" content="website" />
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+		<meta
+			name="description"
+			content="Кароліна — соматична менторка. Робота з тілом через рух, танець і дихання. Індивідуальні сесії та групові формати."
+		/>
+		<meta property="og:title" content="Кароліна · Соматична менторка" />
+		<meta
+			property="og:description"
+			content="Соматична робота з тілом через рух, танець і дихання. Індивідуальні сесії та групові формати."
+		/>
+		<meta property="og:type" content="website" />
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+			integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+			crossorigin=""
+		/>
 	</head>
 	<body>
 		<div id="page-top" class="site-start" aria-hidden="true"></div>
@@ -479,7 +490,10 @@
 			</div>
 		</footer>
 
-		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN2GqBM=" crossorigin=""></script>
+		<script
+			src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+			crossorigin=""
+		></script>
 		<script src="script.js" defer></script>
 		<script>
 			(function () {
@@ -487,7 +501,8 @@
 					var el = document.getElementById("contact-map");
 					if (!el || typeof L === "undefined") return;
 					// Replace lat/lng with real coordinates
-					var lat = 47.3769, lng = 8.5417; // Zürich placeholder
+					var lat = 47.3769,
+						lng = 8.5417; // Zürich placeholder
 					var map = L.map("contact-map", {
 						center: [lat, lng],
 						zoom: 14,
@@ -502,7 +517,7 @@
 					});
 					L.tileLayer(
 						"https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-						{ subdomains: "abcd", maxZoom: 19 }
+						{ subdomains: "abcd", maxZoom: 19 },
 					).addTo(map);
 					L.circleMarker([lat, lng], {
 						radius: 10,
@@ -512,7 +527,9 @@
 						weight: 3,
 					}).addTo(map);
 					// Force tile redraw after layout is complete
-					setTimeout(function () { map.invalidateSize(); }, 200);
+					setTimeout(function () {
+						map.invalidateSize();
+					}, 200);
 				}
 				if (document.readyState === "loading") {
 					document.addEventListener("DOMContentLoaded", initMap);
