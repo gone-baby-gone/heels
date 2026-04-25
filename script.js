@@ -7,20 +7,24 @@ const content = {
 		de: "Zum Hauptinhalt springen",
 	},
 	meta_title: {
-		ua: "Кароліна · Соматична менторка",
-		de: "Karolina · Somatic Mentorin",
+		ua: "Кароліна Загорулько — Соматичне менторство через тіло і танець",
+		de: "Karolina Zahorulko — Somatisches Mentoring durch Körper und Tanz",
 	},
 	logo_text: {
-		ua: "Karolina",
-		de: "Karolina",
+		ua: "Кароліна Загорулько",
+		de: "Karolina Zahorulko",
 	},
 	nav_aria: {
 		ua: "Головна навігація",
 		de: "Hauptnavigation",
 	},
-	nav_philosophy: {
+	nav_about: {
 		ua: "Про мене",
 		de: "Über mich",
+	},
+	nav_philosophy: {
+		ua: "Філософія",
+		de: "Philosophie",
 	},
 	nav_courses: {
 		ua: "Формати",
@@ -55,8 +59,8 @@ const content = {
 		de: "Menü schließen",
 	},
 	hero_eyebrow: {
-		ua: "Соматика · Рух · Трансформація",
-		de: "Somatik · Bewegung · Transformation",
+		ua: "Heels · Contemporary · Studio",
+		de: "Heels · Contemporary · Studio",
 	},
 	hero_portrait_alt: {
 		ua: "Портрет: місце для вертикального фото (500×650 px)",
@@ -67,116 +71,132 @@ const content = {
 		de: "Der Körper ist der Schlüssel zur Veränderung.",
 	},
 	hero_subtitle: {
-		ua: "Я створюю простір,\nу якому ти можеш чесно зустрітися із собою.\n\nПрисутність. Глибина. Автентичний вираз.\n\n«Жінка, яка танцює з життям».",
-		de: "Ich öffne einen Raum,\nin dem du dir selbst ehrlich begegnen kannst.\n\nPräsenz. Tiefe. Authentischer Ausdruck.\n\n„Eine Frau, die mit dem Leben tanzt.“",
+		ua: 'Я створюю простір,\nу якому ти можеш чесно зустрітися із собою.\n\nПрисутність. Глибина. Автентичність.\n\n<span class="quote-script">«Жінка, яка танцює з життям».</span>',
+		de: 'Ich öffne einen Raum,\nin dem du dir selbst ehrlich begegnen kannst.\n\nPräsenz. Tiefe. Authentischer Ausdruck.\n\n<span class="quote-script">„Eine Frau, die mit dem Leben tanzt.“</span>',
 	},
 	hero_cta: {
-		ua: "Записатись на сесію",
-		de: "Session anfragen",
+		ua: "Записатися",
+		de: "Anfragen",
 	},
 	hero_cta_secondary: {
-		ua: "Формати роботи",
-		de: "Formate entdecken",
+		ua: "Програми",
+		de: "Programme",
 	},
 	philosophy_kicker: {
+		ua: "Про простір",
+		de: "Der Raum",
+	},
+	philosophy_title: {
+		ua: "Рух як мова без слів",
+		de: "Bewegung als stille Sprache",
+	},
+	philosophy_lead: {
+		ua: "Ми віримо, що студія — це не декор, а дисципліна уваги: до тіла, до ритму, до присутності.",
+		de: "Wir glauben: ein Studio ist kein Dekor, sondern eine Praxis der Aufmerksamkeit — für Körper, Rhythmus und Präsenz.",
+	},
+	philosophy_body: {
+		ua: "Heels тут — не про «ідеальний образ», а про ясність лінії, теплоту постави і сміливість бути собою. Діти вчаться координації та музикальності, дорослі — витримці та виразності без зайвого блиску.",
+		de: "Heels bedeutet hier kein «perfektes Image», sondern klare Linien, warme Haltung und den Mut, man selbst zu sein. Kinder trainieren Koordination und Musikalität, Erwachsene Ausdauer und Ausdruck — ohne unnötigen Glanz.",
+	},
+	about_kicker: {
 		ua: "Про мене",
 		de: "Über mich",
 	},
-	philosophy_title: {
-		ua: "Я — Кароліна.",
-		de: "Ich bin Karolina.",
+	about_title: {
+		ua: "Привіт. Я — Кароліна.",
+		de: "Hallo. Ich bin Karolina.",
 	},
-	philosophy_lead: {
-		ua: "Соматична менторка.\n\nПонад 15 років я працюю з тілом — через танець, рух і усвідомлене сприйняття.",
-		de: "Somatic Mentorin.\n\nSeit über 15 Jahren arbeite ich mit dem Körper — durch Tanz, Bewegung und bewusste Wahrnehmung.",
+	about_subtitle: {
+		ua: "Соматична менторка.",
+		de: "Somatic Mentorin.",
 	},
-	philosophy_body: {
-		ua: "Тіло для мене — не функціональна система.\nЦе живий простір, який пам'ятає, відчуває і виражає.\n\nЯ бачу, як досвід проявляється в тілі: у напрузі, реакціях, патернах.\nІ досліджую, як через тіло можливі зміни.\n\nУ своїй роботі я супроводжую тебе назад у твою глибину.\nУ твоєму темпі.\nУ контакт із собою та своїм життям.",
-		de: "Der Körper ist für mich kein funktionales System.\nEr ist ein lebendiger Raum, der erinnert, fühlt und ausdrückt.\n\nIch sehe, wie sich Erfahrungen im Körper zeigen: in Spannung, in Reaktionen, in Mustern.\nUnd ich erforsche, wie Veränderung durch den Körper möglich wird.\n\nIn meiner Arbeit begleite ich dich zurück in deine Tiefe.\nIn deinem Tempo.\nIn Kontakt mit dir selbst und deinem Leben.",
+	about_body: {
+		ua: "Понад 15 років я працюю з тілом через танець, рух і усвідомлене сприйняття.\n\nДля мене тіло — це не функціональна система, а живий простір, який пам'ятає, відчуває і виражає.\nЦе точка входу у внутрішні процеси, а отже — і до змін та трансформації.\n\nЯ бачу, як досвід проявляється в тілі — у напрузі, асиметріях, блоках і патернах.\nЧерез ці тілесні прояви стають помітними внутрішні динаміки та життєві стратегії, які часто несвідомо формують наше життя і поведінку.\n\nЯ досліджую, як через роботу з тілом ми можемо розпізнавати, розуміти та змінювати ці внутрішні динаміки і життєві стратегії.\n\nУ цьому процесі змінюється те, як ти сприймаєш себе і як проявляєшся в житті. Внутрішні патерни стають більш усвідомленими, втрачають автоматичний вплив і відкривають можливість до більшої ясності та присутності.\n\nТак виникає процес, у якому ти починаєш ясніше відчувати себе — у тілі, у своїх патернах і в житті.\n\nУ своєму темпі.\nУ контакті з собою.\n\nТак формується автентичність.",
+		de: "Seit über 15 Jahren arbeite ich mit dem Körper durch Tanz, Bewegung und bewusste Wahrnehmung.\n\nDer Körper ist für mich kein funktionales System, sondern ein lebendiger Raum, der erinnert, fühlt und ausdrückt.\nEr ist der Zugangspunkt zu inneren Prozessen und damit auch zu Veränderung und Transformation.\n\nIch sehe, wie sich Erfahrung im Körper zeigt — in Spannung, Asymmetrien, Blockaden und Mustern.\nDurch diese körperlichen Ausdrucksformen werden innere Dynamiken und Lebensstrategien sichtbar, die unser Leben und Handeln oft unbewusst prägen.\n\nIch erforsche, wie wir über die Arbeit mit dem Körper diese inneren Dynamiken und Lebensstrategien erkennen, verstehen und verändern können.\n\nIn diesem Prozess verändert sich, wie du dich selbst wahrnimmst und im Leben ausdrückst. Innere Muster werden bewusster, verlieren ihre automatische Wirkung und eröffnen die Möglichkeit zu mehr Klarheit und Präsenz.\n\nSo entsteht ein Prozess, in dem du dich selbst klarer wahrnimmst — in deinem Körper, in deinen Mustern und in deinem Leben.\n\nIn deinem Tempo.\nIn Kontakt mit dir selbst.\n\nSo entfaltet sich Authentizität.",
 	},
 	courses_kicker: {
-		ua: "Формати",
-		de: "Formate",
+		ua: "без обмежень",
+		de: "uneingeschränkt",
 	},
 	courses_title: {
 		ua: "Формати співпраці",
 		de: "Formate der Zusammenarbeit",
 	},
 	courses_intro: {
-		ua: "Усі формати — це шляхи в соматичну роботу з тілом — у твоєму власному темпі.",
-		de: "Alle Formate sind Wege in die somatische Arbeit mit dem Körper — in deinem eigenen Tempo.",
+		ua: "Шляхи в соматичну роботу. У твоєму власному темпі.",
+		de: "Wege in die somatische Arbeit. In deinem eigenen Tempo.",
 	},
 	course_kids_title: {
-		ua: "1:1 Супровід",
-		de: "1:1 Begleitung",
+		ua: "1:1 СУПРОВІД",
+		de: "1:1 BEGLEITUNG",
 	},
 	course_kids_desc: {
-		ua: "Індивідуальні соматичні сесії. Простір для глибинних змін та індивідуальних процесів. Вхід можливий через сесію-знайомство.",
-		de: "Individuelle somatische Sessions. Ein Raum für tiefgehende Veränderung und individuelle Prozesse. Einstieg über eine Kennenlern-Session möglich.",
+		ua: "Індивідуальні соматичні сесії. Простір для глибинних змін та індивідуальних процесів. Вхід відбувається через сесію-знайомство.\n\nДля жінок, чоловіків і підлітків.",
+		de: "Individuelle somatische Sessions. Ein Raum für tiefgehende Veränderung und individuelle Prozesse. Der Einstieg erfolgt über eine Kennenlern-Session.\n\nFür Frauen, Männer und Teens.",
 	},
 	course_beginners_title: {
-		ua: "Сесія-знайомство",
-		de: "Kennenlern-Session",
+		ua: "СЕСІЯ-ЗНАЙОМСТВО",
+		de: "KENNENLERN-SESSION",
 	},
 	course_beginners_desc: {
-		ua: "Перше знайомство із моєю роботою. Вхід у тілесний процес. Простір для чесного контакту та нових стосунків із тілом.",
-		de: "Ein erster Kontakt mit meiner Arbeit. Einstieg in den Körperprozess. Ein Raum für ehrlichen Kontakt und neue Beziehung zum Körper.",
+		ua: "Перша зустріч із моєю роботою. Простір чесного контакту з собою, у якому тіло стає точкою входу. Ти починаєш відчувати, спостерігати та поступово краще розуміти внутрішні процеси в тілі.\n\nДля жінок, чоловіків і підлітків.",
+		de: "Der erste Kontakt mit meiner Arbeit. Ein Raum für ehrlichen Kontakt mit dir selbst, in dem der Körper zum Zugangspunkt wird. Du beginnst, die inneren Prozesse im Körper wahrzunehmen, zu beobachten und allmählich besser zu verstehen.\n\nFür Frauen, Männer und Teens.",
 	},
 	course_intermediate_title: {
-		ua: "Танець і рух",
-		de: "Tanz & Bewegung",
+		ua: "ТАНЕЦЬ І РУХ — ГРУПОВИЙ",
+		de: "TANZ & BEWEGUNG — GRUPPE",
 	},
 	course_intermediate_desc: {
-		ua: "Простір для самовираження, усвідомлення тіла та життєвої сили. Доступно у груповому та індивідуальному форматі для жінок і підлітків.",
-		de: "Ein Raum für Ausdruck, Körpergefühl und Lebendigkeit. Als Gruppenformat und als individueller Einzelunterricht für Frauen und Jugendliche.",
+		ua: "Простір для вираження, тілесного відчуття та енергії. Групові процеси в полі любові та творчості.\n\nДля жінок і підлітків.",
+		de: "Ein Raum für Ausdruck, Körpergefühl und Lebendigkeit. Gruppenprozesse im Feld von Liebe und Kreativität.\n\nFür Frauen & Teens.",
 	},
 	course_private_title: {
-		ua: "Соматичний метод",
-		de: "Somatische Methode",
+		ua: "ТАНЕЦЬ І РУХ — ІНДИВІДУАЛЬНО",
+		de: "TANZ & BEWEGUNG — EINZEL",
 	},
 	course_private_desc: {
-		ua: "Рух. Танець. Дихання. Робота з тілом — в інтегровану соматичну систему. Внутрішні процеси стають відчутними та їх можна свідомо спостерігати.",
-		de: "Bewegung. Tanz. Atem. Körperarbeit — in ein integriertes somatisches System. Innere Prozesse werden spürbar und können bewusst beobachtet werden.",
+		ua: "Простір для вираження, тілесного відчуття та енергії. Для жінок і підлітків. Індивідуальні сесії або 1:1 супровід.",
+		de: "Ein Raum für Ausdruck, Körpergefühl und Lebendigkeit. Für Frauen & Teens. Einzelsessions oder 1:1 Begleitung.",
 	},
 	benefits_kicker: {
-		ua: "Підхід",
-		de: "Ansatz",
+		ua: "Через рух, танець, дихання та усвідомлене сприйняття",
+		de: "Durch Bewegung, Tanz, Atem und bewusste Wahrnehmung",
 	},
 	benefits_title: {
 		ua: "Чотири кити мого підходу",
-		de: "Die vier Säulen meiner Arbeit",
+		de: "Die vier Säulen meines Ansatzes",
 	},
 	benefit_balance_title: {
 		ua: "Танець",
 		de: "Tanz",
 	},
 	benefit_balance_text: {
-		ua: "Я дипломована хореографка і багато років досліджувала різні стилі та техніки танцю. Танець — це можливість дозволити тілу говорити і виражати себе через рух.",
-		de: "Ich bin ausgebildete Choreografin und habe über viele Jahre verschiedene Tanzstile erforscht. Tanz ist eine Möglichkeit, den Körper sprechen zu lassen und sich durch Bewegung auszudrücken.",
+		ua: "Танець — це спосіб, у який тіло виражає внутрішні стани, емоції та досвід через рух. Він відкриває простір для автентичності, присутності і глибшого контакту з собою.",
+		de: "Tanz ist die Möglichkeit für den Körper, über Bewegung von sich selbst zu erzählen, Emotionen und innere Zustände auszudrücken. Er öffnet einen Raum für Authentizität, Präsenz und einen tieferen Kontakt mit dir selbst.",
 	},
 	benefit_confidence_title: {
 		ua: "Рух",
 		de: "Bewegung",
 	},
 	benefit_confidence_text: {
-		ua: "Свідомий рух відкриває можливість для глибшого переживання власного внутрішнього світу. Патерни, напруга та внутрішні динаміки в тілі стають відчутними та можуть спостерігатися більш свідомо.",
-		de: "Bewusste Bewegung öffnet die Möglichkeit für ein tieferes Spüren des eigenen inneren Erlebens. Muster, Spannungen und innere Dynamiken im Körper werden wahrnehmbar und können bewusster beobachtet werden.",
+		ua: "Рух як дослідження патернів, напруги та внутрішніх динамік у тілі. Він формує силу, стабільність і відчуття міцної внутрішньої опори.",
+		de: "Bewegung als Erforschung von Mustern, Spannungen und inneren Dynamiken im Körper. Sie fördert Kraft, Stabilität und ein tiefes Gefühl innerer Aufrichtung und Halt.",
 	},
 	benefit_creativity_title: {
 		ua: "Дихання",
 		de: "Atem",
 	},
 	benefit_creativity_text: {
-		ua: "Дихання — міст між тілом і внутрішнім станом. Через усвідомлене дихання напруга розчиняється, а внутрішні процеси стають доступними.",
-		de: "Der Atem ist eine Brücke zwischen Körper und innerem Zustand. Durch bewusstes Atmen löst sich Spannung, innere Prozesse werden zugänglich.",
+		ua: "Дихання як зв'язок із нервовою системою та внутрішніми станами. Воно підтримує внутрішній ритм, внутрішню рівновагу і тонке тілесне відчуття себе.",
+		de: "Atem als Verbindung zum Nervensystem und zu inneren Zuständen. Er unterstützt den inneren Rhythmus, innere Balance und ein feines körperliches Selbstempfinden.",
 	},
 	benefit_control_title: {
-		ua: "Робота з тілом",
-		de: "Körperarbeit",
+		ua: "Усвідомлене сприйняття",
+		de: "Bewusstes Wahrnehmen",
 	},
 	benefit_control_text: {
-		ua: "Безпосередня робота з тілом — через дотик, опору та усвідомлення. Тіло отримує нові відчуття і формує новий досвід.",
-		de: "Direkte Arbeit mit dem Körper — durch Berührung, Widerstand und Wahrnehmung. Der Körper empfängt neue Impulse und bildet neue Erfahrungen.",
+		ua: "Усвідомлене сприйняття як фундамент всієї практики. Здатність відчувати, спостерігати і залишатися в контакті з внутрішніми процесами — без оцінювання.",
+		de: "Bewusstes Wahrnehmen als Grundlage des gesamten Prozesses. Die Fähigkeit, innere Prozesse zu spüren, zu beobachten und in Kontakt zu bleiben — ohne Bewertung.",
 	},
 	gallery_kicker: {
 		ua: "Атмосфера",
@@ -259,16 +279,16 @@ const content = {
 		de: "Kyrylo · Private",
 	},
 	join_title: {
-		ua: "Готова почати?",
-		de: "Bereit anzufangen?",
+		ua: "Приєднуйтесь до студії",
+		de: "Werden Sie Teil des Studios",
 	},
 	join_text: {
-		ua: "Оберіть формат або напишіть у месенджер — відповім спокійно і чітко.",
-		de: "Wählen Sie ein Format oder schreiben Sie mir — ich antworte klar und ruhig.",
+		ua: "Оберіть формат, задайте питання або напишіть у месенджер — відповімо спокійно і чітко.",
+		de: "Wählen Sie ein Format, stellen Sie eine Frage oder schreiben Sie uns — wir antworten klar und ruhig.",
 	},
 	join_cta: {
-		ua: "Записатись на сесію",
-		de: "Session anfragen",
+		ua: "Зв'язатися",
+		de: "Kontakt aufnehmen",
 	},
 	contact_kicker: {
 		ua: "Контакт",
@@ -291,8 +311,8 @@ const content = {
 		de: "hello@studio.example",
 	},
 	contact_phone: {
-		ua: "+380 00 000 0000",
-		de: "+380 00 000 0000",
+		ua: "+41 76 598 7128",
+		de: "+41 76 598 7128",
 	},
 	btn_whatsapp: {
 		ua: "Написати в WhatsApp",
@@ -303,8 +323,8 @@ const content = {
 		de: "In Telegram schreiben",
 	},
 	footer_copy: {
-		ua: "© Atelier Noir. Мінімалістичний лендинг — чистий HTML/CSS.",
-		de: "© Atelier Noir. Minimal Landing — reines HTML/CSS.",
+		ua: "© Кароліна Загорулько. Соматичне менторство.",
+		de: "© Karolina Zahorulko. Somatisches Mentoring.",
 	},
 	footer_back_top: {
 		ua: "Нагору",
@@ -357,7 +377,12 @@ function applyLanguage(lang) {
 		const key = el.getAttribute("data-i18n");
 		if (!key) return;
 		const text = t(lang, key);
-		if (text) el.textContent = text;
+		if (!text) return;
+		if (text.includes("<")) {
+			el.innerHTML = text;
+		} else {
+			el.textContent = text;
+		}
 	});
 
 	document.querySelectorAll("[data-i18n-attr]").forEach((el) => {
@@ -612,6 +637,27 @@ function setupMobileNav() {
 	});
 }
 
+function initContactMap() {
+	const el = document.getElementById("contact-map");
+	if (!el || typeof L === "undefined") return;
+
+	const map = L.map("contact-map", {
+		center: [50.45, 30.52],
+		zoom: 15,
+		zoomControl: false,
+		scrollWheelZoom: false,
+		dragging: false,
+		touchZoom: false,
+		doubleClickZoom: false,
+		keyboard: false,
+		attributionControl: false,
+	});
+
+	L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+		maxZoom: 19,
+	}).addTo(map);
+}
+
 function init() {
 	currentLang = readStoredLang();
 	applyLanguage(currentLang);
@@ -621,6 +667,7 @@ function init() {
 	setupReveal();
 	setupMobileNav();
 	setupScrollToTop();
+	initContactMap();
 }
 
 if (document.readyState === "loading") {

@@ -19,6 +19,7 @@
 	--shadow-lg: 0 32px 90px rgba(14, 13, 12, 0.12);
 	--font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
 	--font-serif: "Cormorant Garamond", "Times New Roman", serif;
+	--font-script: "Playfair Display", "Times New Roman", serif;
 	--container: 1180px;
 	--narrow: 720px;
 	--ease: cubic-bezier(0.22, 1, 0.36, 1);
@@ -496,6 +497,14 @@ button {
 	justify-content: flex-start;
 }
 
+.quote-script {
+	font-family: var(--font-script);
+	font-style: italic;
+	font-size: 1.15em;
+	font-weight: 400;
+	letter-spacing: 0.01em;
+}
+
 .hero__scroll {
 	position: absolute;
 	bottom: 2rem;
@@ -623,7 +632,7 @@ button {
 }
 
 .section__headrow {
-	display: grid;
+	/* display: grid; */
 	grid-template-columns: 1fr 1fr;
 	gap: clamp(1.5rem, 4vw, 3rem);
 	align-items: end;
@@ -648,10 +657,30 @@ button {
 	flex-wrap: wrap;
 }
 
-.philosophy {
+.about {
 	border-top: 1px solid var(--line);
 	border-bottom: 1px solid var(--line);
 	background: linear-gradient(180deg, var(--bg-elevated) 0%, var(--bg) 100%);
+}
+
+.about__grid {
+	max-width: var(--narrow);
+	margin-inline: auto;
+}
+
+.about .section__lead {
+	font-size: clamp(1rem, 1.8vw, 1.2rem);
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	font-family: var(--font-sans);
+	color: var(--accent);
+	margin-bottom: 1.75rem;
+}
+
+.about .section__body {
+	max-width: 60ch;
+	line-height: 1.75;
 }
 
 .courses {
@@ -1058,7 +1087,35 @@ button {
 }
 
 /* Contact */
+.contact {
+	position: relative;
+	overflow: hidden;
+}
+
+#contact-map {
+	position: absolute;
+	inset: 0;
+	z-index: 0;
+	filter: sepia(0.55) saturate(0.6) brightness(1.08) hue-rotate(5deg);
+	opacity: 0.55;
+}
+
+.contact__overlay {
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+	background: linear-gradient(
+		135deg,
+		rgba(247, 245, 242, 0.82) 0%,
+		rgba(235, 230, 223, 0.72) 50%,
+		rgba(247, 245, 242, 0.78) 100%
+	);
+	pointer-events: none;
+}
+
 .contact__grid {
+	position: relative;
+	z-index: 2;
 	display: grid;
 	grid-template-columns: 1.1fr 0.9fr;
 	gap: clamp(2rem, 5vw, 4rem);
@@ -1088,29 +1145,6 @@ button {
 	gap: 0.85rem;
 	position: sticky;
 	top: 7rem;
-}
-
-/* Contact map background */
-.contact {
-	position: relative;
-	overflow: hidden;
-}
-
-.contact__map {
-	position: absolute;
-	inset: 0;
-	z-index: 0;
-	filter: grayscale(1) saturate(0) brightness(1.05) opacity(0.8);
-}
-
-.contact .container {
-	position: relative;
-	z-index: 1;
-}
-
-/* Leaflet: hide attribution, keep tiles interactive-free */
-.contact__map .leaflet-control-container {
-	display: none;
 }
 
 /* Footer */
