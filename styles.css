@@ -974,28 +974,38 @@ button {
 	border: 1px solid rgba(247, 245, 242, 0.12);
 	background: rgba(247, 245, 242, 0.03);
 	box-shadow: var(--shadow-lg);
-	overflow: hidden;
 }
 
 .testimonial__track {
-	display: flex;
-	transition: transform 0.55s var(--ease);
+	position: relative;
 }
 
 .testimonial__slide {
-	flex: 0 0 100%;
 	padding: clamp(2rem, 5vw, 3rem);
+	padding-bottom: 0;
+	position: absolute;
+	inset: 0;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.45s var(--ease);
+}
+
+.testimonial__slide.is-active {
+	position: relative;
+	inset: auto;
+	opacity: 1;
+	pointer-events: auto;
 }
 
 .testimonial__quote {
 	font-family: var(--font-serif);
-	font-size: clamp(1.35rem, 2.8vw, 1.85rem);
+	font-size: clamp(1rem, 1.8vw, 1.25rem);
 	font-weight: 400;
 	font-style: italic;
 	color: rgba(247, 245, 242, 0.95);
 	line-height: 1.45;
 	margin: 0 0 1.5rem;
-	max-width: 52ch;
+	/* max-width: 52ch; */
 }
 
 .testimonial__author {
@@ -1010,7 +1020,7 @@ button {
 .testimonial__dots {
 	display: flex;
 	gap: 0.5rem;
-	padding: 0 clamp(2rem, 5vw, 3rem) clamp(1.5rem, 3vw, 2rem);
+	padding: 1rem clamp(2rem, 5vw, 3rem) clamp(1.5rem, 3vw, 2rem);
 }
 
 .testimonial__dot {
@@ -1222,7 +1232,7 @@ button {
 		transform: none;
 	}
 
-	.testimonial__track {
+	.testimonial__slide {
 		transition: none;
 	}
 }

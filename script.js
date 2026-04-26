@@ -259,16 +259,16 @@ const content = {
 		de: "Stimme %s",
 	},
 	testimonial_1_quote: {
-		ua: "Темп спокійний, але прогрес відчувається щотижня — нарешті я не виправдовуюсь перед дзеркалом.",
-		de: "Das Tempo ist ruhig, aber der Fortschritt ist wöchentlich spürbar — endlich stehe ich ohne Entschuldigung vor dem Spiegel.",
+		ua: "Мене звати Саша, мені 15 років. Я займаюся танцями вже багато років, а саме з Кароліною тренуюся приблизно 7–8 років — ще з того часу, коли жила в Україні і я займалася в колективі. Зараз продовжую заняття з Кароліною індивідуально онлайн, оскільки наразі немає можливості відвідувати офлайн-тренування. \n\n Кароліна — дуже освічений і професійний хореограф. Вона подає матеріал так, що заняття завжди цікаві та різноманітні. Зазвичай ми працюємо над однією зв’язкою протягом кількох тижнів (приблизно п’яти), після чого починаємо вивчати нову. Усі зв’язки відрізняються за стилем і технікою, тому тренування завжди різноманітні. Окрім танців, ми регулярно працюємо над розтяжкою та силовими вправами. На початку заняття завжди є розминка. \n\nКароліна дуже добре пояснює та детально показує всі рухи. Якщо мені щось незрозуміло, я завжди можу перепитати — і вона з радістю пояснить ще раз. Також музика, під яку ми танцюємо, завжди вдало підібрана: це не лише сучасні треки, а й іноді старі, що робить заняття ще цікавішими. \n\nЯ дуже задоволена нашими тренуваннями і рекомендую Кароліну як чудового хореографа.",
+		de: "Ich heiße Sasha und bin 15 Jahre alt. Ich tanze schon seit vielen Jahren und trainiere seit etwa sieben bis acht Jahren mit Karolina – seit meiner Zeit in der Ukraine, als ich in einer Gruppe getanzt habe. Da Präsenztraining momentan nicht möglich ist, nehme ich weiterhin online Einzelunterricht bei Karolina. \n\n Karolina ist eine sehr qualifizierte und professionelle Choreografin. Sie gestaltet den Unterricht so, dass er immer interessant und abwechslungsreich ist. Normalerweise arbeiten wir mehrere Wochen (etwa fünf) an einem Band, bevor wir mit einem neuen beginnen. Jedes Band unterscheidet sich in Stil und Technik, sodass das Training stets abwechslungsreich bleibt. Neben dem Tanzen machen wir regelmäßig Dehn- und Kraftübungen. Zu Beginn jeder Stunde gibt es ein Warm-up.\n\n Karolina erklärt alle Bewegungen sehr gut und zeigt sie detailliert. Wenn ich etwas nicht verstehe, kann ich sie jederzeit fragen – und sie erklärt es mir gerne noch einmal. Auch die Musik, zu der wir tanzen, ist immer gut ausgewählt: Es sind nicht nur moderne Stücke, sondern manchmal auch ältere, was den Unterricht noch interessanter macht.\n\n Ich bin sehr zufrieden mit unserem Training und kann Karolina als hervorragende Choreografin wärmstens empfehlen.",
 	},
 	testimonial_1_author: {
 		ua: "Марта · доросла група",
 		de: "Marta · Erwachsene",
 	},
 	testimonial_2_quote: {
-		ua: "Доньці подобається «серйозна краса» занять: ніякого хаосу — лише увага і музика.",
-		de: "Meiner Tochter gefällt die «ernsthafte Schönheit»: kein Chaos — nur Fokus und Musik.",
+		ua: 'Спасибо тебе большое за работу со мной❤️ Я реально после нашей встречи много обдумала.	Особенно откликнулось про напряжение в руках, я начала замечать это в жизни, не только в теле. И про баланс "брать-давать" тоже, я понимаю, что мне это нужно выравнивать. Появилось больше осознанности в эмоциях, иногда даже ловлю себя на том, что хочу что-то сказать, но по привычке сдерживаюсь. Сейчас хотя бы замечаю это.\n\n В целом ощущение, что я начала лучше чувствовать себя и свои реакции. Теперь пробую твои советы повторять дома, работать с телом и учиться в моменте говорить, что я чувствую.\n\n И отдельное спасибо за медитацию, она прям в точку',
+		de: "Ich habe bei Karolina zum ersten Mal in meinem Leben Tanzstunden genommen und mich bei ihr sofort wohlgefühlt. Sie schafft es, in ihren Stunden einen echten Safe Space zu kreieren, in dem man sich trauen kann, aus sich herauszukommen und einfach man selbst zu sein. Ihre Energie und ihre lebhafte, strahlende Art sind jedes Mal ansteckend und machen die Tanzstunden zu einem absoluten Highlight meiner Woche.\n\n Ich konnte nach nur wenigen Stunden nicht nur meine (vorher nicht vorhandenen) Tanzkünste verbessern, sondern habe auch ein viel besseres Gefühl für meinen Körper entwickelt. Ich habe deutlich mehr Selbstbewusstsein gewonnen und spüre richtig, wie ich mich nach jeder Stunde lockerer und befreiter fühle. Wer Lust auf Tanzen mit Herz und viel positiver Energie hat, ist bei Karolina genau richtig!",
 	},
 	testimonial_2_author: {
 		ua: "Олена · батьківський коментар",
@@ -303,12 +303,12 @@ const content = {
 		de: "Nah dran, gut erreichbar",
 	},
 	contact_intro: {
-		ua: "Нижче — плейсхолдери для адреси та контактів. Замініть їх на реальні дані перед публікацією.",
-		de: "Unten finden Sie Platzhalter für Adresse und Kontakt. Bitte vor dem Livegang durch echte Daten ersetzen.",
+		ua: "Зв'яжіться з нами зручним способом — відповімо швидко і по суті.",
+		de: "Kontaktieren Sie uns auf dem Weg, der Ihnen passt — wir antworten schnell und konkret.",
 	},
 	contact_address: {
-		ua: "вул. Хореографічна, 12 · 01001 Київ · Україна (приклад)",
-		de: "Musterstrasse 12 · 8000 Zürich · Schweiz (Beispiel)",
+		ua: "Hallwylstrasse 26 · 8004 Zürich · Schweiz",
+		de: "Hallwylstrasse 26 · 8004 Zürich · Schweiz",
 	},
 	contact_email: {
 		ua: "hello@studio.example",
@@ -435,7 +435,7 @@ function syncContactLinks(lang) {
 const testimonialKeys = [
 	{ quote: "testimonial_1_quote", author: "testimonial_1_author" },
 	{ quote: "testimonial_2_quote", author: "testimonial_2_author" },
-	{ quote: "testimonial_3_quote", author: "testimonial_3_author" },
+	// { quote: "testimonial_3_quote", author: "testimonial_3_author" },
 ];
 
 let testimonialIndex = 0;
@@ -495,17 +495,21 @@ function renderTestimonials(lang) {
 
 /** @param {boolean} instant */
 function updateTestimonialTrack(instant) {
-	const track = document.querySelector("[data-testimonial-track]");
-	if (!track) return;
-	const offset = testimonialIndex * 100;
-	track.style.transition = instant ? "none" : "";
-	track.style.transform = `translateX(-${offset}%)`;
+	const slides = document.querySelectorAll(".testimonial__slide");
+	if (!slides.length) return;
 
-	requestAnimationFrame(() => {
+	slides.forEach((slide, i) => {
+		const active = i === testimonialIndex;
 		if (instant) {
+			slide.style.transition = "none";
+			slide.classList.toggle("is-active", active);
 			requestAnimationFrame(() => {
-				track.style.transition = "";
+				requestAnimationFrame(() => {
+					slide.style.transition = "";
+				});
 			});
+		} else {
+			slide.classList.toggle("is-active", active);
 		}
 	});
 
@@ -645,9 +649,12 @@ function initContactMap() {
 	const el = document.getElementById("contact-map");
 	if (!el || typeof L === "undefined") return;
 
+	const LAT = 47.37468;
+	const LNG = 8.52748;
+
 	const map = L.map("contact-map", {
-		center: [50.45, 30.52],
-		zoom: 15,
+		center: [LAT, LNG],
+		zoom: 16,
 		zoomControl: false,
 		scrollWheelZoom: false,
 		dragging: false,
@@ -660,6 +667,48 @@ function initContactMap() {
 	L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 		maxZoom: 19,
 	}).addTo(map);
+
+	const flagIcon = L.divIcon({
+		className: "",
+		html: `<div style="position:relative;width:28px;height:44px;">
+			<div style="
+				position:absolute;left:0;top:0;
+				width:3px;height:44px;
+				background:#8b7355;
+				border-radius:2px;
+			"></div>
+			<div style="
+				position:absolute;left:3px;top:0;
+				width:20px;height:14px;
+				background:#8b7355;
+				border-radius:0 3px 3px 0;
+				display:flex;align-items:center;justify-content:center;
+			">
+				<div style="width:6px;height:6px;border-radius:50%;background:#f7f5f2;opacity:.9;"></div>
+			</div>
+			<div style="
+				position:absolute;left:-3px;bottom:0;
+				width:9px;height:9px;
+				border-radius:50%;
+				background:#8b7355;
+				border:2px solid #f7f5f2;
+				box-shadow:0 2px 8px rgba(14,13,12,0.35);
+			"></div>
+		</div>`,
+		iconSize: [28, 44],
+		iconAnchor: [3, 44],
+		popupAnchor: [10, -44],
+	});
+
+	L.marker([LAT, LNG], { icon: flagIcon })
+		.addTo(map)
+		.bindPopup(
+			`<div style="font-family:inherit;line-height:1.45;">
+				<span style="font-size:12px;color:#888;">Hallwylstrasse 26, 8004 Zürich</span>
+			</div>`,
+			{ closeButton: false, offset: [10, -8], minWidth: 180 },
+		)
+		.openPopup();
 }
 
 function init() {
