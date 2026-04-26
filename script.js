@@ -144,7 +144,7 @@ const content = {
 	},
 	course_intermediate_title: {
 		ua: "ТАНЕЦЬ І РУХ — ГРУПОВИЙ",
-		de: "TANZ & BEWEGUNG — GRUPPE",
+		de: "TANZ & BEWEGUNG — GRUPPENFORMAT",
 	},
 	course_intermediate_desc: {
 		ua: "Простір для вираження, тілесного відчуття та енергії. Групові процеси в полі любові та творчості.\n\nДля жінок і підлітків.",
@@ -152,19 +152,23 @@ const content = {
 	},
 	course_private_title: {
 		ua: "ТАНЕЦЬ І РУХ — ІНДИВІДУАЛЬНО",
-		de: "TANZ & BEWEGUNG — EINZEL",
+		de: "TANZ & BEWEGUNG — EINZELFORMAT",
 	},
 	course_private_desc: {
-		ua: "Простір для вираження, тілесного відчуття та енергії. Для жінок і підлітків. Індивідуальні сесії або 1:1 супровід.",
-		de: "Ein Raum für Ausdruck, Körpergefühl und Lebendigkeit. Für Frauen & Teens. Einzelsessions oder 1:1 Begleitung.",
+		ua: "Простір для вираження, тілесного відчуття та енергії. Для жінок і підлітків. Індивідуальні сесії або 1:1 супровід. \n\nДля жінок і підлітків.",
+		de: "Ein Raum für Ausdruck, Körpergefühl und Lebendigkeit. Für Frauen & Teens. Einzelsessions oder 1:1 Begleitung. \n\nFür Frauen & Teens.",
 	},
 	benefits_kicker: {
-		ua: "Через рух, танець, дихання та усвідомлене сприйняття",
-		de: "Durch Bewegung, Tanz, Atem und bewusste Wahrnehmung",
+		ua: "ПІДХІД",
+		de: "ANSATZ",
 	},
 	benefits_title: {
 		ua: "Чотири кити мого підходу",
 		de: "Die vier Säulen meines Ansatzes",
+	},
+	benefits_paragraph: {
+		ua: "Дослідження тілесної організації досвіду — того, як у тілі формуються патерни, напруга і внутрішні динаміки. Через рух, танець, дихання та усвідомлене сприйняття. \n\nУсі інструменти взаємодіють між собою і формують інтегровану соматичну систему.",
+		de: "Erforschung der körperlichen Organisation von Erfahrung — und wie sich im Körper Muster, Spannungen und innere Dynamiken bilden. Durch Bewegung, Tanz, Atem und bewusste Wahrnehmung. \n\nAlle Instrumente greifen ineinander und bilden ein integriertes somatisches Gesamtsystem.",
 	},
 	benefit_balance_title: {
 		ua: "Танець",
