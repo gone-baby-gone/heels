@@ -7,8 +7,8 @@ const content = {
 		de: "Zum Hauptinhalt springen",
 	},
 	meta_title: {
-		ua: "Кароліна Загорулько — Соматичне менторство через тіло і танець",
-		de: "Karolina Zahorulko — Somatisches Mentoring durch Körper und Tanz",
+		ua: "Кароліна Загорулько — Робота з тілом, Цюрих",
+		de: "Karolina Zahorulko — Körperarbeit Zürich",
 	},
 	logo_text: {
 		ua: "Кароліна Загорулько",
@@ -59,8 +59,8 @@ const content = {
 		de: "Menü schließen",
 	},
 	hero_eyebrow: {
-		ua: "Heels · Contemporary · Studio",
-		de: "Heels · Contemporary · Studio",
+		ua: "Танець · Тіло · Трансформація",
+		de: "Tanz · Körperarbeit · Transformation",
 	},
 	hero_portrait_alt: {
 		ua: "Портрет: місце для вертикального фото (500×650 px)",
@@ -155,8 +155,8 @@ const content = {
 		de: "TANZ & BEWEGUNG — EINZELFORMAT",
 	},
 	course_private_desc: {
-		ua: "Простір для вираження, тілесного відчуття та енергії. Для жінок і підлітків. Індивідуальні сесії або 1:1 супровід. \n\nДля жінок і підлітків.",
-		de: "Ein Raum für Ausdruck, Körpergefühl und Lebendigkeit. Für Frauen & Teens. Einzelsessions oder 1:1 Begleitung. \n\nFür Frauen & Teens.",
+		ua: "Простір для вираження, тілесного відчуття та енергії. Індивідуальні сесії або 1:1 супровід. \n\nДля жінок і підлітків.",
+		de: "Ein Raum für Ausdruck, Körpergefühl und Lebendigkeit. Einzelsessions oder 1:1 Begleitung. \n\nFür Frauen & Teens.",
 	},
 	benefits_kicker: {
 		ua: "ПІДХІД",
@@ -263,16 +263,16 @@ const content = {
 		de: "Ich heiße Sasha und bin 15 Jahre alt. Ich tanze schon seit vielen Jahren und trainiere seit etwa sieben bis acht Jahren mit Karolina – seit meiner Zeit in der Ukraine, als ich in einer Gruppe getanzt habe. Da Präsenztraining momentan nicht möglich ist, nehme ich weiterhin online Einzelunterricht bei Karolina. \n\n Karolina ist eine sehr qualifizierte und professionelle Choreografin. Sie gestaltet den Unterricht so, dass er immer interessant und abwechslungsreich ist. Normalerweise arbeiten wir mehrere Wochen (etwa fünf) an einem Band, bevor wir mit einem neuen beginnen. Jedes Band unterscheidet sich in Stil und Technik, sodass das Training stets abwechslungsreich bleibt. Neben dem Tanzen machen wir regelmäßig Dehn- und Kraftübungen. Zu Beginn jeder Stunde gibt es ein Warm-up.\n\n Karolina erklärt alle Bewegungen sehr gut und zeigt sie detailliert. Wenn ich etwas nicht verstehe, kann ich sie jederzeit fragen – und sie erklärt es mir gerne noch einmal. Auch die Musik, zu der wir tanzen, ist immer gut ausgewählt: Es sind nicht nur moderne Stücke, sondern manchmal auch ältere, was den Unterricht noch interessanter macht.\n\n Ich bin sehr zufrieden mit unserem Training und kann Karolina als hervorragende Choreografin wärmstens empfehlen.",
 	},
 	testimonial_1_author: {
-		ua: "Марта · доросла група",
-		de: "Marta · Erwachsene",
+		ua: "Саша",
+		de: "Alexandra",
 	},
 	testimonial_2_quote: {
 		ua: 'Спасибо тебе большое за работу со мной❤️ Я реально после нашей встречи много обдумала.	Особенно откликнулось про напряжение в руках, я начала замечать это в жизни, не только в теле. И про баланс "брать-давать" тоже, я понимаю, что мне это нужно выравнивать. Появилось больше осознанности в эмоциях, иногда даже ловлю себя на том, что хочу что-то сказать, но по привычке сдерживаюсь. Сейчас хотя бы замечаю это.\n\n В целом ощущение, что я начала лучше чувствовать себя и свои реакции. Теперь пробую твои советы повторять дома, работать с телом и учиться в моменте говорить, что я чувствую.\n\n И отдельное спасибо за медитацию, она прям в точку',
 		de: "Ich habe bei Karolina zum ersten Mal in meinem Leben Tanzstunden genommen und mich bei ihr sofort wohlgefühlt. Sie schafft es, in ihren Stunden einen echten Safe Space zu kreieren, in dem man sich trauen kann, aus sich herauszukommen und einfach man selbst zu sein. Ihre Energie und ihre lebhafte, strahlende Art sind jedes Mal ansteckend und machen die Tanzstunden zu einem absoluten Highlight meiner Woche.\n\n Ich konnte nach nur wenigen Stunden nicht nur meine (vorher nicht vorhandenen) Tanzkünste verbessern, sondern habe auch ein viel besseres Gefühl für meinen Körper entwickelt. Ich habe deutlich mehr Selbstbewusstsein gewonnen und spüre richtig, wie ich mich nach jeder Stunde lockerer und befreiter fühle. Wer Lust auf Tanzen mit Herz und viel positiver Energie hat, ist bei Karolina genau richtig!",
 	},
 	testimonial_2_author: {
-		ua: "Олена · батьківський коментар",
-		de: "Olena · Elternstimme",
+		ua: "Заріна",
+		de: "Silke",
 	},
 	testimonial_3_quote: {
 		ua: "Private дав мені структуру після перерви. Повернулося тіло — повернулася присутність.",
@@ -283,12 +283,12 @@ const content = {
 		de: "Kyrylo · Private",
 	},
 	join_title: {
-		ua: "Приєднуйтесь до студії",
-		de: "Werden Sie Teil des Studios",
+		ua: "Почнемо?",
+		de: "Möchten Sie Anfangen?",
 	},
 	join_text: {
-		ua: "Оберіть формат, задайте питання або напишіть у месенджер — відповімо спокійно і чітко.",
-		de: "Wählen Sie ein Format, stellen Sie eine Frage oder schreiben Sie uns — wir antworten klar und ruhig.",
+		ua: "Оберіть формат, задайте питання або напишіть у месенджер — відповім спокійно і чітко.",
+		de: "Wählen Sie ein Format, stellen Sie eine Frage oder schreiben Sie mir — Ich antworte klar und ruhig.",
 	},
 	join_cta: {
 		ua: "Зв'язатися",
@@ -299,20 +299,20 @@ const content = {
 		de: "Kontakt",
 	},
 	contact_title: {
-		ua: "Поруч на зв'язку",
-		de: "Nah dran, gut erreichbar",
+		ua: "Я поруч і на зв’язку",
+		de: "Gut erreichbar und offen für Kontakt",
 	},
 	contact_intro: {
-		ua: "Зв'яжіться з нами зручним способом — відповімо швидко і по суті.",
-		de: "Kontaktieren Sie uns auf dem Weg, der Ihnen passt — wir antworten schnell und konkret.",
+		ua: "Зв'яжіться зі мною — відповім!",
+		de: "Kontaktieren Sie mir auf dem Weg, der Ihnen passt — Ich antworte schnell und konkret.",
 	},
 	contact_address: {
 		ua: "Hallwylstrasse 26 · 8004 Zürich · Schweiz",
 		de: "Hallwylstrasse 26 · 8004 Zürich · Schweiz",
 	},
 	contact_email: {
-		ua: "hello@studio.example",
-		de: "hello@studio.example",
+		ua: "2332karolina@gmail.com",
+		de: "2332karolina@gmail.com",
 	},
 	contact_phone: {
 		ua: "+41 76 598 7128",
