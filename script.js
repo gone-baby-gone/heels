@@ -304,7 +304,7 @@ const content = {
 	},
 	contact_intro: {
 		ua: "Зв'яжіться зі мною — відповім!",
-		de: "Kontaktieren Sie mir auf dem Weg, der Ihnen passt — Ich antworte schnell und konkret.",
+		de: "Kontaktieren Sie mich auf dem Weg, der Ihnen passt — Ich antworte schnell und konkret.",
 	},
 	contact_address: {
 		ua: "Hallwylstrasse 26 · 8004 Zürich · Schweiz",
